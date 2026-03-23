@@ -27,8 +27,8 @@ main_menu = [
 
 
 # FUNCTION FOR PRINT LIST
-def print_list(list):
-    for x in list:
+def print_list(items):
+    for x in items:
         print(x)
 
 
