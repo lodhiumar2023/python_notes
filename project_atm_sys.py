@@ -13,6 +13,7 @@
 
 
 # GLOBAL VARIABLES
+balance = 50000
 pin_code = "1234"
 insert_card = input("please insert card (y/n):").lower()
 main_menu = [
@@ -50,12 +51,11 @@ elif insert_card == "y":
     elif menu_option == "1":
         print("CASH WITHDRAWAL")  # --> Menu will be added
     elif menu_option == "2":
-        print("Rs.50,000")
+        print(balance)
     elif menu_option == "3":
         print("PLEASE ENTER YOUR NEW PIN")  # --> Menu will be added
     else:
         print("Wrong Menu")
-
 
 else:
     print("Wrong Menu, please select (y/n)")
