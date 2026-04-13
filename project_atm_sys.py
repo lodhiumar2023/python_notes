@@ -73,7 +73,7 @@ elif insert_card == "y":
         elif cash_option == "3":
             print("You draw Rs.2000")
             print("Thanks you for using ATM Service.")
-        elif cash_option == "4":t sta
+        elif cash_option == "4":
             print("You draw Rs.3000")
             print("Thanks you for using ATM Service.")
         elif cash_option == "5":
